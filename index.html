@@ -11,12 +11,12 @@
     <tr>
       <td>Fahrenheit</td>
       <td><input id="fahrenheit" type="number" ></td>
-      <td><button type="button" onclick="celsius()" >Convert to Celsius</button></td>
+      <td><button type="button" onclick="celsius(); return false;" required >Convert to Celsius</button></td>
     </tr>
     <tr>
       <td>Celcius</td>
       <td><input id="celsius" type="number" ></td>
-      <td><button type="button" onclick="fahrenheit()" >Convert to Fahrenheit</button></td>
+      <td><button type="button" onclick="fahrenheit(); return false;" required >Convert to Fahrenheit</button></td>
     </tr>
   </table>
   <script src="main.js" charset="utf-8"></script>
